@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artikel Ijo Rent | Tips Sewa iPhone Jogja</title>
+    <meta
+      name="description"
+      content="Halaman artikel Ijo Rent untuk update tips sewa iPhone, ide konten, wisata Jogja, dan informasi harian yang bisa diperbarui dengan mudah."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell article-page-shell">
+      <header class="site-header">
+        <div class="brand">
+          <span class="brand-mark">IR</span>
+          <div>
+            <p class="brand-name">Ijo Rent</p>
+            <p class="brand-tag">Artikel & Update Harian</p>
+          </div>
+        </div>
+        <nav class="site-nav">
+          <a href="index.html">Beranda</a>
+          <a href="#artikel-terbaru">Artikel Terbaru</a>
+          <a href="#semua-artikel">Semua Artikel</a>
+          <a href="#panduan-update">Cara Update</a>
+        </nav>
+        <a class="button button-small" href="https://wa.me/6282241337346" target="_blank" rel="noreferrer">
+          Booking Sekarang
+        </a>
+      </header>
+
+      <main>
+        <section class="article-hero">
+          <div class="article-hero-copy">
+            <p class="eyebrow">Blog Ijo Rent</p>
+            <h1>Halaman artikel untuk update konten setiap hari.</h1>
+            <p class="hero-text">
+              Gunakan halaman ini untuk posting tips sewa iPhone, ide konten, promo mingguan, sampai artikel SEO lokal Jogja agar website lebih aktif dan lebih mudah ditemukan.
+            </p>
+            <div class="hero-actions">
+              <a class="button" href="#semua-artikel">Lihat Semua Artikel</a>
+              <a class="button button-secondary" href="#panduan-update">Panduan Update</a>
+            </div>
+          </div>
+          <div class="article-hero-panel">
+            <div class="article-mini-stat">
+              <strong id="articleCount">0</strong>
+              <span>Artikel aktif</span>
+            </div>
+            <div class="article-mini-stat">
+              <strong>Harian</strong>
+              <span>Siap diupdate kapan saja</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="artikel-terbaru">
+          <div class="section-heading">
+            <p class="eyebrow">Artikel Unggulan</p>
+            <h2>Postingan terbaru tampil besar di bagian atas.</h2>
+          </div>
+          <article class="featured-article" id="featuredArticle"></article>
+        </section>
+
+        <section class="section" id="semua-artikel">
+          <div class="section-heading">
+            <p class="eyebrow">Semua Artikel</p>
+            <h2>Kumpulan artikel yang bisa kamu terus tambah dari satu file data.</h2>
+          </div>
+          <div class="article-grid" id="articleGrid"></div>
+        </section>
+
+        <section class="section" id="panduan-update">
+          <div class="section-heading">
+            <p class="eyebrow">Cara Update</p>
+            <h2>Edit satu file saja untuk menambah artikel baru setiap hari.</h2>
+          </div>
+          <div class="update-guide">
+            <div class="guide-card">
+              <span>01</span>
+              <h3>Buka file data artikel</h3>
+              <p>Edit file <code>artikel-data.js</code> lalu tambahkan objek artikel baru di posisi paling atas.</p>
+            </div>
+            <div class="guide-card">
+              <span>02</span>
+              <h3>Isi judul dan isi artikel</h3>
+              <p>Lengkapi judul, tanggal, ringkasan, kategori, gambar, dan beberapa paragraf isi artikel.</p>
+            </div>
+            <div class="guide-card">
+              <span>03</span>
+              <h3>Simpan lalu refresh</h3>
+              <p>Setelah disimpan, buka ulang <code>artikel.html</code> dan artikel baru akan langsung muncul.</p>
+            </div>
+          </div>
+          <div class="update-note">
+            <strong>Tips cepat:</strong>
+            Tambah artikel baru di urutan paling atas agar otomatis jadi artikel unggulan.
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div>
+          <p class="brand-name">Ijo Rent</p>
+          <p>Artikel harian untuk mendukung promosi rental iPhone Jogja.</p>
+        </div>
+        <div class="footer-links">
+          <a href="index.html">Beranda</a>
+          <a href="https://wa.me/6282241337346" target="_blank" rel="noreferrer">WhatsApp</a>
+          <a href="#panduan-update">Panduan Update</a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="artikel-data.js"></script>
+    <script src="artikel.js"></script>
+  </body>
+</html>
